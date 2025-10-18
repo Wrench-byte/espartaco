@@ -21,6 +21,7 @@ function show() {
                 
                 setTimeout(function() {
                     window.open("pag3.html");
+                    window.close("")
                 }, 1010);
                 
             } else if(nameLower === "adrian") {
@@ -33,6 +34,7 @@ function show() {
                 
                 setTimeout(function() {
                     window.open("pag5.html");
+                    window.close("")
                 }, 1010);
                 
             } else {
@@ -51,4 +53,6 @@ function show() {
 
 function sigui(){
     window.open("pag2.html");
+    window.close("")
+
 }
