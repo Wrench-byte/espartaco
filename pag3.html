@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>проверка</title>
+</head>
+<body class="body3">
+    <h1>Проверка</h1>
+    <div>
+        <h4>Coздатель этого сайта является мой...</h4>
+        <input type="text" name="" id="prueba">
+        <button onclick="prab()">Дальше</button>
+        <br>
+        <img src="Images/5.gif" alt="" width="110px">
+    </div>
+
+</body>
+<script>
+
+function prab() {
+    let name = document.getElementById("prueba").value.trim();
+    
+    if(name !== "Дурак" && name !== "дурак") {
+        alert("Неправильно");
+    } else {
+        window.open("pag4.html");
+    }
+}
+
+
+
+</script>
+</html>

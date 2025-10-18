@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>крутой человек</title>
+</head>
+<body class="body2" id="body2" >
+    <img class="perfil" src="Images/4.png" alt="">
+    <div id="div3"></div>
+    <div class="eman2">
+        <h3>Рaбота: Быть прекраснее каждый день</h3>
+        <h3>Учится на: Крутология</h3>
+        <h3>Level of english: Соу хай</h3>
+        <h3>Любимая песня: Зимба</h3>
+        <h3>Уникальная способность: ложиться в 6 и проснуться в 6.20</h3>
+    </div>
+
+</body>
+<script>
+const nombre = localStorage.getItem('nombreUsuario');
+    document.getElementById('div3').innerHTML  =  `
+                
+    <h1 class="eman" >Имя: ${nombre}</h1>
+                
+            `;
+</script>
+</html>
